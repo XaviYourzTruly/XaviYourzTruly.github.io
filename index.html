@@ -1074,25 +1074,6 @@
         }
       })();
 
-      /* ══════════════════════════════════════════════════════
-       3. iPOD PLAYER
-       ──────────────────────────────────────────────────────
-       HOW TO SET UP YOUR SONGS
-       ────────────────────────
-       1. In your GitHub repo create two folders:
-            /music   → put your .mp3 files here
-            /covers  → put your album art images here (jpg/png)
-
-       2. Edit the `playlist` array below.
-          Each song needs:
-            title  — displayed song name
-            artist — displayed artist name
-            src    — path to .mp3  e.g. "music/mysong.mp3"
-            cover  — path to image e.g. "covers/mysong.jpg"
-                     (leave "" for the default music-note icon)
-
-       3. Commit & push. GitHub Pages serves all files automatically.
-    ══════════════════════════════════════════════════════ */
       const playlist = [
         {
           title: "PULL UP NOV 4TH",
@@ -1107,13 +1088,12 @@
           cover: "image2.png",
         },
         {
-          title: "Song Title Three",
-          artist: "Artist Three",
-          src: "music/song3.mp3",
-          cover: "",
+          title: "War",
+          artist: "Caleb Gordon",
+          src: "song3.mp3",
+          cover: "image3.png",
         },
       ];
-      // ↑ REPLACE WITH YOUR REAL TRACKS ↑
 
       let idx = 0;
       let looping = false;
